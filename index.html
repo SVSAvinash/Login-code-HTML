@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+          
+            background-color: aqua;
+            background-image: linear-gradient(100deg,#eb15b9 0% #72eb15 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            line-height:2;
+        }
+        form{
+            background-color: whitesmoke;
+            font-style: italic;
+        max-width: 360px;
+         width: 100%;
+         padding: 58px 48px;
+         border-radius: 5px;
+         box-shadow:0 0 5px 0 #4e15eb;
+        }
+        .row{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+
+        }
+        .row label {
+            font-size: 17px;
+                      
+        }
+        .row input{
+            flex: 1;
+            padding: 13px;
+            border: 2px solid #4e15eb;
+        }
+        .btn{
+            width: 100px;
+            padding: 11px;
+            font-size: 9px;
+           font-style: italic;
+            border: none;
+            border-radius: 50px;
+            background-color: #4e15eb;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+        @media(max-width: 458px){
+            body{
+                margin: 0 18px;
+            }
+            form{
+                background-color: aqua;
+                border: none;
+                padding: 20px 10px;
+                box-shadow: none;
+            }
+
+        }
+            
+        
+
+    </style>
+</head>
+<body>
+    <h1>Login</h1>
+    <form onsubmit="return validity()">
+       <div class="row"> 
+            <label>UserName</label>
+            <input id="username" placeholder="Enter name"/>
+       </div>
+       <div class="row">
+        <label>Password</label>
+        <input type="password" id="password" placeholder="Enter Password"/>
+       </div>
+       <button class="btn"> Forgot Password</button>
+       <button class="btn">login</button>
+    </form>
+    <script>
+        function validity(){
+           
+        var username=document.getElementById("username").value
+        var password=document.getElementById("password").value
+        var usernameCheck=/^[a-zA-Z0-9]+@[a-z]+\.[a-z].{2,3}$/
+        var passwordCheck=/^(?=.*[0-9])(?=.*[a-z])?=.*[A-Z]).{4,6}$/
+        console.log(username,password)
+       
+        if(username==""){
+            alert('No Details Provided')
+            return false
+        }
+        
+        if(password==""){
+            alert('No Details Provided')
+            return false
+        }
+        
+        if(!username.match(usernameCheck)){
+            alert('Check your usename')
+            return false
+        }
+        if(!password.match(passwordCheck)){
+            alert('Check your password')
+            return false
+        }
+    
+
+        return true
+            
+
+        
+    </script>
+</body>
+</html>
