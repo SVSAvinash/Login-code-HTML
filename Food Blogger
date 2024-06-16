@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Recipe Founder - By Samba Siva Rao</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Samba's Kitchen</h1>
+            <nav>
+                <div class="menu-icon">&#9776;</div>
+                <ul class="nav-list">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Recipes</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<!--...............Hero Section.............-->
+    <section class="hero">
+        <div class="hero-section">
+            <h2>Welcome to Samba's Flavoured Kitchen</h2>
+            <p>Search mouth watering Recipes to satisfy your craving !</p>
+            <form action="#" class="search-box">
+                <input type="text" placeholder="Search Recipe">
+                <button type="submit">Search</button></form>
+            </form>
+        </div>
+</section>
+
+<!--...............Recipes Section.............-->
+    <section class="Recipes">
+        <h1>Featured Recipies</h1>
+        <div class="Recipe-section">
+            <div class="Recipe-card">
+                <img src="images/idly.avif" alt="">
+                <h2>Idly's</h2>
+                <p>happy to say</p>
+                <a href="file:///C:/Users/HP/OneDrive/Documents/Desktop/recipe%20finder/Idly's.pdf">View Recipe</a>
+            </div>
+            <div class="Recipe-card">
+                <img src="images/u.jpg" alt="">
+                <h2>Upma</h2>
+                <p>happy to say</p>
+                <a href="file:///C:/Users/HP/OneDrive/Documents/Desktop/recipe%20finder/upma.pdf">View Recipe</a>
+            </div>
+            <div class="Recipe-card">
+                <img src="images/attu.jpg" alt="">
+                <h2>Dosa</h2>
+                <p>happy to say</p>
+                <a href="file:///C:/Users/HP/OneDrive/Documents/Desktop/recipe%20finder/Dosa.pdf">View Recipe</a>
+            </div>
+            <div class="Recipe-card">
+                <img src="images/gari2.avif" alt="">
+                <h2>Vada (Gari)</h2>
+                <p>happy to say</p>
+                <a href="#">View Recipe</a>
+            </div>
+            <div class="Recipe-card">
+                <img src="images/pesara.png" alt="">
+                <h2>Pesara(mung bean) Dosa</h2>
+                <p>happy to say</p>
+                <a href="#">View Recipe</a>
+            </div>
+            <div class="Recipe-card">
+                <img src="images/bonda.jpg" alt="">
+                <h2>Mysore Bonda</h2>
+                <p>happy to say</p>
+                <a href="#">View Recipe</a>
+            </div>
+            <div class="Recipe-card">
+                <img src="images/ppppppppp.jpg" alt="">
+                <h2>Punugullu</h2>
+                <p>happy to say</p>
+                <a href="#">View Recipe</a>
+            </div>
+            <div class="Recipe-card">
+                <img src="images/ggggggggg.jpg" alt="">
+                <h2>Gunta Punugullu</h2>
+                <p>happy to say</p>
+                <a href="#">View Recipe</a>
+            </div>
+            <div class="Recipe-card">
+                <img src="images/egg.webp" alt="">
+                <h2>Egg Bonda</h2>
+                <p>happy to say</p>
+                <a href="#">View Recipe</a>
+            </div>
+            <div class="Recipe-card">
+                    <img src="images/puri.jpg" alt="">
+                    <h2>Puri</h2>
+                    <p>happy to say</p>
+                    <a href="#">View Recipe</a>
+            </div>
+            <div class="Recipe-card">
+                <img src="images/chapathi.cms" alt="">
+                <h2>Chapathi</h2>
+                <p>happy to say</p>
+                <a href="#">View Recipe</a>
+            </div>
+            <div class="Recipe-card">
+                <img src="images/curd.webp" alt="">
+                <h2>Curd Rice</h2>
+                <p>happy to say</p>
+                <a href="#">View Recipe</a>
+            </div>
+            <div class="Recipe-card">
+                <img src="images/sprouts.jpg" alt="">
+                <h2>Sprouts Salad</h2>
+                <p>happy to say</p>
+                <a href="#">View Recipe</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+           <p>&copy; Samba's Kitchen</p> 
+        </div>
+    </footer>
+</body>
+</html>
